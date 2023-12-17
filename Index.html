@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mezcal Artesanal - JSBD</title>
+  <!-- Enlace al archivo CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    /* Ajustes de estilo personalizado */
+    .carousel-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px; /* Separación entre el carrusel y los botones */
+    }
+
+    .carousel {
+      width: 50%; /* Ancho del carrusel */
+    }
+
+    .btn-container {
+      width: 180px; /* Ancho de los botones */
+    }
+
+    .btn-block {
+      margin-top: 5px;
+      margin-bottom: 20px; /* Espacio entre los botones */
+      font-size: 20px; /* Tamaño de fuente más pequeño */
+      padding: 20px; /* Espaciado interno de los botones */
+      background-color: #fbeee0;
+      border: 2px solid #422800;
+      border-radius: 30px;
+      box-shadow: #422800 4px 4px 0 0;
+      color: #422800;
+      cursor: pointer;
+      display: inline-block;
+      font-weight: 600;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+
+    .btn-block:hover {
+      background-color: #fff;
+    }
+
+    .btn-block:active {
+      box-shadow: #422800 2px 2px 0 0;
+      transform: translate(2px, 2px);
+    }
+
+    @media (min-width: 768px) {
+      .btn-block {
+        min-width: 120px;
+        padding: 0 25px;
+      }
+    }
+
+    .carousel-inner img {
+      width: 100%; /* Hace las imágenes del carrusel responsivas */
+      border: 3px solid #000; /* Borde negro alrededor de las imágenes */
+    }
+
+    /* Línea de separación arriba y abajo */
+    .separador {
+      border-top: 1px solid #000; /* Línea de separación superior */
+      border-bottom: 1px solid #000; /* Línea de separación inferior */
+      margin-top: 20px; /* Espacio arriba del separador */
+      margin-bottom: 20px; /* Espacio debajo del separador */
+    }
+
+    /* Encabezado adicional */
+    .encabezado {
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: auto;
+      margin-top: 0; /* Ajusté el margen superior a 0 */
+
+    }
+
+    /* Encabezado adicional */
+    .encabezado2 {
+      text-align: center;
+      font-size: 35px;
+      font-weight: bold;
+      margin-bottom: 0px; /* Reduje el margen inferior */
+      margin-top: auto; /* Ajusté el margen superior a 0 */
+      color: #422800;
+     }
+
+    /* Estilo para el navbar */
+    .navbar {
+      font-size: 5px; /* Tamaño del texto reducido */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <a class="navbar-brand" href="#">Eleva tus SENTIDOS, escalando tus EMOCIONES</a>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container mt-1">
+    <!-- Encabezado adicional -->
+    <div class="encabezado2">JSBD</div>
+    <div class="encabezado">Mezcal Artesanal</div>
+
+    <!-- Línea de separación superior -->
+    <div class="separador"></div>
+
+    <!-- Carrusel de fotos y Botones de redirección -->
+    <div class="carousel-container">
+      <!-- Carrusel de fotos -->
+      <div id="carouselExample" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="M1.jpg" class="d-block w-100" alt="M1">
+          </div>
+          <div class="carousel-item">
+            <img src="M2.jpg" class="d-block w-100" alt="M2">
+          </div>
+          <div class="carousel-item">
+            <img src="M3.jpg" class="d-block w-100" alt="M3">
+          </div>
+          <div class="carousel-item">
+            <img src="M4.jpg" class="d-block w-100" alt="M4">
+          </div>
+          <div class="carousel-item">
+            <img src="M5.jpg" class="d-block w-100" alt="M5">
+          </div>
+          <div class="carousel-item">
+            <img src="M6.jpg" class="d-block w-100" alt="M6">
+          </div>
+          <div class="carousel-item">
+            <img src="M7.jpg" class="d-block w-100" alt="M7">
+          </div>
+          <div class="carousel-item">
+            <img src="M8.jpg" class="d-block w-100" alt="M8">
+          </div>
+          <div class="carousel-item">
+            <img src="M9.jpg" class="d-block w-100" alt="M9">
+          </div>
+          <div class="carousel-item">
+            <img src="M10.jpg" class="d-block w-100" alt="M10">
+          </div>
+          <div class="carousel-item">
+            <img src="M11.jpg" class="d-block w-100" alt="M11">
+          </div>
+        </div>
+      </div>
+
+      <!-- Botones de redirección -->
+      <div class="btn-container">
+        <div class="row">
+          <div class="col-12">
+            <a href="HTML/agaves.html" class="btn btn-primary btn-block">Agaves</a>
+          </div>
+          <div class="col-12">
+            <a href="HTML/ensambles.html" class="btn btn-primary btn-block">Ensambles</a>
+          </div>
+          <div class="col-12">
+            <a href="HTML/curados.html" class="btn btn-primary btn-block">Curados</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Línea de separación inferior -->
+    <div class="separador"></div>
+
+    <!-- Más contenido puede ir aquí -->
+
+  </div>
+
+  <!-- Scripts de Bootstrap y jQuery (asegúrate de incluir jQuery antes de Bootstrap) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
